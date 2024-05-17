@@ -25,16 +25,16 @@ body{
     right: 0;
     bottom: 0;
     left: 0;
-    width: 80%;
-    height: 80%;
+    width: 200px;
+    height: 200px;
     margin: auto;
     /*改变左右上下,图片方块移动*/
     
 }
 /*包裹所有容器样式*/
 .cube{
-    width: 80%;
-    height: 80%;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     transform-style: preserve-3d;
     transform: rotateX(-30deg) rotateY(-80deg);
@@ -48,15 +48,15 @@ body{
 }
 .cube div{
     position: absolute;
-    width: 80%;
-    height: 80%;
+    width: 200px;
+    height: 200px;
     opacity: 0.8;
     transition: all .4s;
 }
 /*定义所有图片样式*/
 .pic{
-    width: 80%;
-    height: 80%;
+    width: 200px;
+    height: 200px;
 }
 .cube .out_front{
     transform: rotateY(0deg) translateZ(100px);
@@ -109,22 +109,22 @@ body{
 }
 /*鼠标移入后样式*/
 .cube:hover .out_front{
-    transform: rotateY(0deg) translateZ(80%);
+    transform: rotateY(0deg) translateZ(200px);
 }
 .cube:hover .out_back{
-    transform: translateZ(-80%) rotateY(180deg);
+    transform: translateZ(-200px) rotateY(180deg);
 }
 .cube:hover .out_left{
-    transform: rotateY(90deg) translateZ(80%);
+    transform: rotateY(90deg) translateZ(200px);
 }
 .cube:hover .out_right{
-    transform: rotateY(-90deg) translateZ(80%);
+    transform: rotateY(-90deg) translateZ(200px);
 }
 .cube:hover .out_top{
-    transform: rotateX(90deg) translateZ(80%);
+    transform: rotateX(90deg) translateZ(200px);
 }
 .cube:hover .out_bottom{
-    transform: rotateX(-90deg) translateZ(80%);
+    transform: rotateX(-90deg) translateZ(200px);
 }
 .audio-container {  
     display: flex;  
