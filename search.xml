@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>C++&amp;SDL的双人塔防游戏question</title>
+      <link href="/2025/01/24/C-SDL%E7%9A%84%E5%8F%8C%E4%BA%BA%E5%A1%94%E9%98%B2%E6%B8%B8%E6%88%8Fquestion/"/>
+      <url>/2025/01/24/C-SDL%E7%9A%84%E5%8F%8C%E4%BA%BA%E5%A1%94%E9%98%B2%E6%B8%B8%E6%88%8Fquestion/</url>
+      
+        <content type="html"><![CDATA[<h1 id="图标的设置"><a href="#图标的设置" class="headerlink" title="图标的设置"></a>图标的设置</h1><h2 id="1-获得icon图标"><a href="#1-获得icon图标" class="headerlink" title="1. 获得icon图标"></a>1. 获得icon图标</h2><p>在比特虫网站将图片转icon类型：<a href="https://www.bitbug.net/%E3%80%82">https://www.bitbug.net/。</a><br><img src="https://wx--pic.oss-cn-chengdu.aliyuncs.com/blog/%E6%AF%94%E7%89%B9%E8%99%AB.png"></p><p>注意事项：</p><ol><li>建议目标尺寸选择 64 * 64，这样的图标较为清晰</li><li>图片需要小于500k, 如果图片大于500k，可以使用windows自带图片工具修改图片大小。</li></ol><h2 id="2-vs2022中设置图标"><a href="#2-vs2022中设置图标" class="headerlink" title="2. vs2022中设置图标"></a>2. vs2022中设置图标</h2><p>右键资源文件–&gt;添加–&gt;资源–&gt;</p><p><img src="https://wx--pic.oss-cn-chengdu.aliyuncs.com/blog/ico1.png"></p><p>选择Icon–&gt;点击导入–&gt;选择文件类型ico–&gt;选择文件–&gt;点击打开</p><p><img src="https://wx--pic.oss-cn-chengdu.aliyuncs.com/blog/ico2.png"></p><p>最后重新生成一下解决方案即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C++ </tag>
+            
+            <tag> SDL </tag>
+            
+            <tag> Question </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C++&amp;SDL的双人塔防游戏</title>
       <link href="/2025/01/22/C++&amp;SDL%E7%9A%84%E5%8F%8C%E4%BA%BA%E5%A1%94%E9%98%B2%E6%B8%B8%E6%88%8F/"/>
       <url>/2025/01/22/C++&amp;SDL%E7%9A%84%E5%8F%8C%E4%BA%BA%E5%A1%94%E9%98%B2%E6%B8%B8%E6%88%8F/</url>
