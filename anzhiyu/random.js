@@ -1,3 +1,3 @@
-var posts=["2025/01/22/C++&SDL的双人塔防游戏/","2025/01/24/C-SDL的双人塔防游戏question/","2025/01/15/Markdown-完整教程/","2025/01/10/Markdown-语法教学/","2025/01/07/hello-world/","2025/01/10/test/","2025/01/16/安知鱼主题多层级分类跳转问题/","2025/02/22/基于C-和SDL的2D双人塔防游戏的开发与实现/"];function toRandomPost(){
+var posts=["2025/01/22/C++&SDL的双人塔防游戏/","2025/01/24/C-SDL的双人塔防游戏question/","2025/01/10/Markdown-语法教学/","2025/01/07/hello-world/","2025/01/15/Markdown-完整教程/","2025/06/22/python爬虫案例：采集携程酒店数据/","2025/01/10/test/","2025/01/16/安知鱼主题多层级分类跳转问题/","2025/06/23/维生素服用表 （6.23）/","2025/02/22/基于C-和SDL的2D双人塔防游戏的开发与实现/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
